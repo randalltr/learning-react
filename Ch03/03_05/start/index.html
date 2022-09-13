@@ -63,13 +63,13 @@
 
       function App() {
         return (
-          <div>
+          <React.Fragment>
             <Header name="Randall"/>
             <Main 
               adjective="addictive"
               dishes={dishObjects}/>
             <Footer year={new Date().getFullYear()}/>
-          </div>
+          </React.Fragment>
         );
       }
 
